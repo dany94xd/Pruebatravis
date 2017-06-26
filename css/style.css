@@ -102,7 +102,7 @@ a.elemadded {
     font-family: 'Courier New', sans-serif;
     text-transform: uppercase;
     padding: 20px;
-    background: #ffed27;
+    background: #0099FF;
     text-decoration: none;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     transition: all 0.17s ease-in-out;
@@ -147,7 +147,7 @@ ul.menu li:first-child a {
 }
 
 ul.menu > li > a.active {
-    background: #ffed27;
+    background: #0099FF;
     border-bottom: 1px dashed #d6d6d6;
     color: #000;
 }
@@ -157,7 +157,7 @@ ul.menu > li > a:hover {
     -moz-transition: all 0.15s linear;
     -webkit-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
-    background: #ffed27;
+    background: #0099FF;
     border-bottom: 1px dashed #000;
     color: #000;
 }
@@ -166,7 +166,7 @@ ul.menu > li > a.active:after {
   content:"";
   border-top: 28px solid transparent;
   border-bottom: 29px solid transparent;
-  border-left: 20px solid #ffed27;
+  border-left: 20px solid #0099FF;
   position:absolute;
   left:300px;
   top: 0;
@@ -405,6 +405,8 @@ ul li {
     height: 100%;
     background: url(../upload/body-bg.jpg) center 0 repeat;
 }
+
+
 
 .project-post {
     width: 24.99%;
@@ -801,7 +803,7 @@ ul li {
 
 
 .link-post .post-content {
-    background: #ffed27;
+    background: #0099FF;
     padding: 20px 30px;
     text-align: center;
 }
@@ -872,7 +874,7 @@ ul li {
 .aside-post .post-content {
     background: #1d1d1d;
     padding: 18px 25px;
-    border-left: 15px solid #ffed27; 
+    border-left: 15px solid #0099FF; 
 }
 
 .aside-post .post-content h2 {
@@ -1071,7 +1073,7 @@ line-height: 30px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ffed27;
+    background: #0099FF;
     background: rgba(255,237,39,0.9);
     text-align: center;
     border-radius: 50%;
@@ -1177,7 +1179,7 @@ line-height: 30px;
     margin: 0;
     margin-left: 80px;
     line-height: 26px;
-    background: #ffed27;
+    background: #0099FF;
 }
 
 .testimonial p {
@@ -1375,8 +1377,8 @@ line-height: 30px;
 #contact-form input[type="text"]:focus + span i,
 .comment-form input[type="text"]:focus + span i {
     color: #000;
-    background: #ffed27;
-    border: 1px solid #ffed27;
+    background: #0099FF;
+    border: 1px solid #0099FF;
 }
 
 #contact-form textarea,
@@ -1394,7 +1396,7 @@ line-height: 30px;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
     padding: 15px;
-    background: #ffed27;
+    background: #0099FF;
     text-transform: uppercase;
     border: none;
     transition: all 0.2s ease-in-out;
@@ -1476,7 +1478,7 @@ line-height: 22px;
 }
 
 .service-item {
-  background: #ffed27;
+  background: #0099FF;
   text-align: center;
   padding: 30px 0px;
   -webkit-border-radius: 5px;
@@ -1515,21 +1517,21 @@ line-height: 22px;
 }
 
 .service-item:hover .serv-border {
-  border-top: 1px solid #ffed27;
+  border-top: 1px solid #0099FF;
     -webkit-animation: moveFromTop 300ms ease;
     -moz-animation: moveFromTop 300ms ease;
     -ms-animation: moveFromTop 300ms ease;
 
 }
 .service-item:hover h3 {
-  color: #ffed27;
+  color: #0099FF;
       -webkit-animation: moveFromBottom 500ms ease;
     -moz-animation: moveFromBottom 500ms ease;
     -ms-animation: moveFromBottom 500ms ease;
   
 }
 .service-item:hover i {
-  color: #ffed27;
+  color: #0099FF;
     -webkit-animation: moveFromTop 400ms ease;
   -moz-animation: moveFromTop 400ms ease;
   -ms-animation: moveFromTop 400ms ease;
@@ -1618,7 +1620,7 @@ line-height: 22px;
 }
 
 .tabs-widget .tab-links li.active {
-    background: #ffed27;
+    background: #0099FF;
 }
 
 .tabs-widget .tab-links li.active a{
