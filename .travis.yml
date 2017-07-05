@@ -46,6 +46,7 @@ matrix:
 # use the $DB env variable to determine the phpunit.xml to use
 script: 
 phpunit test.php
+phpunit holamundo.php
 - sbt $TASKS
 # configure notifications (email, IRC, campfire etc)
 notifications:
