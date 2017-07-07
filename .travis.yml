@@ -1,7 +1,8 @@
 # see http://about.travis-ci.org/docs/user/languages/php/ for more hints
 language: php
 
-dist:xenial
+dist:- trusty
+sudo: - false
 # list any PHP version you want to test against
 php:
   # using major version aliases
@@ -50,5 +51,4 @@ phpunit holamundo.php
 - sbt $TASKS
 # configure notifications (email, IRC, campfire etc)
 notifications:
-email:
-- pruebatravis@outlook.com
+email:- pruebatravis@outlook.com
